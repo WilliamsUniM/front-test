@@ -2,14 +2,6 @@ import React, { Component } from 'react';
 
 export default class Header extends Component {
 
-    constructor(props) {
-        super(props)
-    }
-
-    //Se ejecuta al iniciar
-    componentDidMount() {
-    }
-
     render() {
         return (
             <header className='d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom'>
