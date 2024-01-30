@@ -1,14 +1,13 @@
 import './App.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Poke from './components/poke';
+import Header from './components/header';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route exact path="/" element={<Poke />} />
-      </Routes>
-    </BrowserRouter>
+    <div className="App">
+      <Header ></Header>
+      <Poke></Poke>
+    </div>
   );
 }
 

@@ -60,7 +60,6 @@ export default class Poke extends Component {
         });
         return (
             <div>
-                <Header />
                 <div className='py-5 text-center container'>
                     <div className='col-lg-6 col-md-8 mx-auto'>
                         <h2>BUSCA TU POKEMON</h2>
